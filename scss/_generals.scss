@@ -59,3 +59,21 @@ body{
   }
 
 }
+
+.technology-body{
+  background-image: url("../images/technology-desktop-bg.jpg");
+  background-repeat: no-repeat;
+  
+
+  @media only screen and (max-width:970px){
+    background-image: url("../images/technology-tablet-bg.jpg"); 
+  background-repeat: repeat-y;
+  background-size: 100%;
+  }
+
+  @media only screen and (max-width:504px){
+    background-image: url("../images/technology-mobile-bg.jpg");
+    height: 100vh;
+ 
+  }
+}
