@@ -6,12 +6,26 @@
     box-sizing: border-box;
 }
 
-::selection{
 
-}
 
 
 body{
-    // font-family: "Your font here";
+    background-image: url("../images/desktop-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  @media only screen and (max-width:816px){
+    background-image: url("../images/tablet-bg.jpg");
+    background-repeat: no-repeat;
+  }
+  @media only screen and (max-width:375px){
+    background-image: url("../images/mobile-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+    font-family: 'Bellefair', serif;
+    font-family: "Barlow", sans-serif;
 }
 

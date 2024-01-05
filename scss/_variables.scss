@@ -1,0 +1,17 @@
+@mixin display (){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin fonts(){
+  font-family: 'Bellefair', serif;
+  color: #FFF;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin content-text(){
+  color: #D0D6F9;
+  font-style: normal;
+  font-weight: 400;
+}

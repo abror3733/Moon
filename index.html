@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Bellefair&display=swap" rel="stylesheet">
     <title>Your__site__name</title>
 </head>
 <body>
@@ -11,7 +14,29 @@
     <header class="site-header">
         <div class="container">
             <div class="header">
-                <!-- ... -->
+            <a class="header__logo-link" href="/">
+                <img class="header__logo-img" src="./images/site-logo.svg" alt="site-logo" width="48" height="48">
+            </a>
+            <span class="header__line"></span>
+            <nav class="header__navbar navbar">
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a href="" class="navbar__item-link"><span class="navbar__item-number">00</span>HOME</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="" class="navbar__item-link"><span class="navbar__item-number">01</span>DESTINATION</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="" class="navbar__item-link"><span class="navbar__item-number">02</span>CREW</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="" class="navbar__item-link"><span class="navbar__item-number">03</span>TECHNOLOGY</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="header__btn-hamburger hamburger">
+                <img class="hamburger__img" src="./images/hamburger.svg" alt="" width="24" height="21">
+            </button>
             </div>
         </div>
     </header>
@@ -21,7 +46,12 @@
         <section class="hero-section">
             <div class="container">
                 <div class="hero">
-                    <!-- ... -->
+                  <div class="hero__content">
+                    <h4 class="hero__small-title">SO, YOU WANT TO TRAVEL TO</h4>
+                    <h1 class="hero__title">SPACE</h1>
+                    <p class="hero__text">Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!</p>
+                  </div>
+                  <span class="hero__explore">EXPLORE</span>
                 </div>
             </div>
         </section>
