@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crew</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Bellefair&display=swap" rel="stylesheet">
+</head>
+<body class="crew-body">
+  <!-- Site Header start -->
+  <header class="site-header">
+    <div class="container">
+        <div class="header">
+        <a class="header__logo-link" href="/">
+            <img class="header__logo-img" src="./images/site-logo.svg" alt="site-logo" width="48" height="48">
+        </a>
+        <span class="header__line"></span>
+        <nav class="header__navbar navbar">
+            <ul class="navbar__list">
+                <li class="navbar__item">
+                    <a href="./index.html" class="navbar__item-link"><span class="navbar__item-number">00</span>HOME</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="./destination.html" class="navbar__item-link"><span class="navbar__item-number">01</span>DESTINATION</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#" class="navbar__item-link"><span class="navbar__item-number">02</span>CREW</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="" class="navbar__item-link"><span class="navbar__item-number">03</span>TECHNOLOGY</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="header__btn-hamburger hamburger">
+            <img class="hamburger__img" src="./images/hamburger.svg" alt="" width="24" height="21">
+        </button>
+        </div>
+    </div>
+</header>
+<!-- Site Header end -->
+<main class="site-main">
+  <section class="crew-section">
+    <div class="container">
+      <div class="crew">
+        <div class="crew__content-card">
+          <h4 class="crew__content-title"> <span class="crew__content-number">02</span>
+            Meet your crew</h4>
+        </div>
+       <div class="crew__cards">
+        <div class="crew__content">
+        
+          <h3 class="crew__commander">Commander </h3>
+          <h1 class="crew__title">Douglas Hurley</h1>
+         <div class="crew__wrappper-content">
+          <p class="crew__text">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
+         </div>
+          <img class="crew__image" src="./images/crew-img.png" alt="img" width="132" height="15">
+      </div>
+      <span class="crew__line"></span>
+      <picture>
+
+        <source type="image/jpg"
+        media="(max-width:375px)"
+        srcset="./images/crew-mobile-img.png">
+
+        <source type="image/jpg"
+        media="(max-width:768px)"
+        srcset="./images/crew-tablet-img.png">
+
+        <img class="crew__img" src="./images/crew-desktop-img.png" alt="img" srcset="./images/crew-desktop-img.png">
+
+      </picture>
+     
+       </div>
+     
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+</html>
