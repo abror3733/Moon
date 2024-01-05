@@ -7,9 +7,9 @@
 }
 
 body {
+  height: 100vh;
   background-image: url("../images/desktop-bg.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
   font-family: "Bellefair", serif;
   font-family: "Barlow", sans-serif;
 }
@@ -23,7 +23,6 @@ body {
   body {
     background-image: url("../images/mobile-bg.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
   }
 }
 
