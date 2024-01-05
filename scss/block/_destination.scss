@@ -1,0 +1,296 @@
+.destination-section{
+  padding: 43px 0px 108px;
+  
+}
+.destination{
+  @include display();
+  padding-left: 63px;
+}
+.destination__wrapper{
+  width: 510px;
+}
+.destination__wrapper-title{
+  color: #FFF;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+  margin-bottom: 64px;
+}
+.destination__wrapper-number{
+  font-weight: 700;
+  opacity: 0.25;
+}
+.destination__img{
+  width: 450px;
+  height: 450px;
+}
+.destination__content{
+  width: 444px;
+  padding-top: 115px;
+}
+
+
+.destination__list{
+  width: 333px;
+  display: flex;
+}
+.destination__item + .destination__item{
+  margin-left: 25px;
+}
+.destination__item{
+  padding-bottom: 12px;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s;
+
+  &:hover{
+    border-bottom: 3px solid white;
+  }
+}
+.destination__item-link{
+  color: #D0D6F9;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.7px;
+}
+.destination__title{
+  @include fonts ();
+  font-size: 100px;
+  line-height: normal;
+  margin: 37px 0 14px;
+}
+.destination__text{
+ @include content-text();
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 54px;
+}
+.destination__line{
+  display: inline-block;
+  width: 444px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #383B4B;
+  margin-bottom: 28px;
+}
+
+.destination__cards{
+  display: flex;
+}
+.destination__distance{
+  display: flex;
+  flex-direction: column;
+  margin-right: 72px;
+}
+.destination__distance-text{
+  color: #D0D6F9;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.362px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+.destination__distance-number{
+  color: #FFF;
+  font-family: "Bellefair";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.destination__day{
+  display: flex;
+  flex-direction: column;
+}
+.destination__day-text{
+  color: #D0D6F9;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.362px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+.destination__day-number{
+  color: #FFF;
+  font-family:" Bellefair";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+// Tablet style start
+ @media only screen and (max-width:1043px){
+  .destination{
+    padding-left: 28px;
+  }  
+  .destination__img{
+    width: 400px;
+    height: 400px;
+  }
+ }
+ @media only screen and (max-width:959px){
+  .destination-section{
+    padding-top: 0px;
+    padding-bottom: 68px;
+  }
+  .destination{
+    padding-left: 8px;
+  }
+  .destination__wrapper{
+    width: 420px;
+  }
+  .destination__wrapper-title{
+    font-size: 20px;
+    letter-spacing: 3.375px;
+  }
+  .destination__content{
+    width: 382px;
+  }
+  .destination__line{
+    width: 382px;
+  }
+  .destination__img{
+    width: 380px;
+    height: 380px;
+  }
+ }
+ @media only screen and (max-width:839px){
+  .destination{
+    flex-direction: column;
+    padding: 0;
+  }
+  .destination__wrapper{
+    width: 100%;
+    text-align: center;
+    padding-top: 7px;
+  }
+  .destination__wrapper-title{
+    text-align: start;
+    margin-bottom: 60px;
+  }
+
+
+  .destination__img{
+    width: 360px;
+    height: 360px;
+  }
+  .destination__content{
+    width: 100%;
+    text-align: center;
+    padding: 0 90px;
+  }
+  .destination__lists{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .destination__list{
+    margin-top: 53px;
+    width: 100%;
+    justify-content: center;
+  }
+  .destination__title{
+    margin: 32px 0 8px;
+  }
+  .destination__text{
+    margin-bottom: 49px;
+  }
+  .destination__line{
+    width: 100%;
+  
+  }
+  .destination__cards{
+    width: 100%;
+    justify-content: center;
+  }
+ }
+// Tablet style end
+// Mobile style start 
+@media only screen and (max-width:555px){
+.destination__img{
+  width: 360px;
+  height: 360px;
+}
+.destination__content{
+  padding: 0 40px;
+}
+.destination__title{
+  font-size: 80px;
+  font-weight: 400;
+}
+.destination__text{
+  font-size: 16px;
+  line-height: 28px
+}
+}
+@media only screen and (max-width:544px){
+  .destination__wrapper{
+    padding-top: 34px;
+  }
+}
+@media only screen and (max-width:484px){
+
+
+  .destination__wrapper-title{
+    text-align: center;
+  }
+  .destination__img{
+    width: 300px;
+    height: 300px;
+  }
+  .destination__content{
+    padding: 0 4px;
+  }
+  .destination__title{
+    font-size: 56px;
+    line-height: normal;
+    margin: 20px 0 0;
+  }
+  .destination__text{
+    font-size: 15px;
+    line-height: 25px;
+    mask-border: 32px;
+  }
+  .destination__cards{
+    flex-direction: column;
+  }
+  .destination__distance{
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+}
+@media only screen and (max-width:375px){
+.destination__wrapper-title{
+  font-size: 16px;
+  letter-spacing: 2.7px;
+}
+.destination__img{
+  width: 240px;
+  height: 240px;
+}
+.destination__item + .destination__item{
+  margin-left: 10px;
+}
+.destination__content{
+  padding: 0;
+}
+.destination__text{
+  margin-bottom: 28px;
+}
+
+
+}
+// Mobile style end

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destination</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Bellefair&display=swap" rel="stylesheet">
+</head>
+<body class="destination-body">
+   <!-- Site Header start -->
+   <header class="site-header">
+    <div class="container">
+        <div class="header">
+        <a class="header__logo-link" href="/">
+            <img class="header__logo-img" src="./images/site-logo.svg" alt="site-logo" width="48" height="48">
+        </a>
+        <span class="header__line"></span>
+        <nav class="header__navbar navbar">
+            <ul class="navbar__list">
+                <li class="navbar__item">
+                    <a href="./index.html" class="navbar__item-link"><span class="navbar__item-number">00</span>HOME</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="./destination.html" class="navbar__item-link"><span class="navbar__item-number">01</span>DESTINATION</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="" class="navbar__item-link"><span class="navbar__item-number">02</span>CREW</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="" class="navbar__item-link"><span class="navbar__item-number">03</span>TECHNOLOGY</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="header__btn-hamburger hamburger">
+            <img class="hamburger__img" src="./images/hamburger.svg" alt="" width="24" height="21">
+        </button>
+        </div>
+    </div>
+</header>
+<!-- Site Header end -->
+  <!-- Site main start  -->
+<main class="site-main">
+ <!-- destination section start  -->
+ <section class="destination-section">
+  <div class="container">
+    <div class="destination">
+      <div class="destination__wrapper">
+        <h4 class="destination__wrapper-title">
+          <span class="destination__wrapper-number">01</span> 
+          Pick your destination
+        </h4>
+        <picture>
+
+          <!-- Jpg  -->
+
+          <source type="image/jpg"
+          media="(max-width:375px)"
+          srcset="./images/destination-mobile-img.png"
+          >
+          <source type="image/jpg"
+          media="(max-width:768px)"
+          srcset="./images/destination-tablet-img.png"
+          >
+          <img  class="destination__img" src="./images/destination-desktop-img.png" alt="img"
+          srcset="./images/destination-desktop-img.png">
+
+        </picture>
+      </div>
+      <div class="destination__content">
+         <div class="destination__lists">
+          <ul class="destination__list">
+            <li class="destination__item">
+              <a class="destination__item-link" href="#">
+                MOON
+              </a>
+            </li>
+            <li class="destination__item">
+              <a class="destination__item-link" href="#">
+                MARS
+              </a>
+            </li>
+            <li class="destination__item">
+              <a class="destination__item-link" href="#">
+                EUROPA
+              </a>
+            </li>
+            <li class="destination__item">
+              <a class="destination__item-link" href="#">
+                TITAN
+              </a>
+            </li>
+          </ul>
+          <h1 class="destination__title">MOON</h1>
+         </div>
+         <p class="destination__text">See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+         <span class="destination__line"></span>
+         <div class="destination__cards">
+          <div class="destination__distance">
+            <span class="destination__distance-text">AVG. DISTANCE</span>
+            <strong class="destination__distance-number">384,400 km</strong>
+          </div>
+          <div class="destination__day">
+            <span class="destination__day-text">Est. travel time</span>
+            <strong class="destination__day-number">3 days</strong>
+          </div>
+         </div>
+      </div>
+    </div>
+  </div>
+ </section>
+ <!-- destination section end  -->
+</main>
+  <!-- Site main end  -->
+</body>
+</html>
